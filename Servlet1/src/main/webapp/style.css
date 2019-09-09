@@ -1,0 +1,165 @@
+/*= ОБЩИЕ СТИЛИ
+	--------------------------------------------------------*/
+body {
+    background: #efefef;
+    font-family: 'Montserrat', sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+a {
+    color: #f58220;
+    font-weight: 400;
+}
+
+span {
+    font-weight: 300;
+    /*color: #f58220;*/
+}
+
+.m_login {
+    margin: 40px auto 0;
+    /*background: #fff;*/
+}
+
+.m_register {
+    margin: 40px auto 0;
+    /*background: #fff;*/
+}
+
+.error {
+    /*margin: 40px auto 0;*/
+    /*border: 1px solid #777;*/
+    padding: 2px;
+    color: #F50057;
+    text-align: center;
+    /*background: #f58220;*/
+}
+
+.reg_text {
+    font-size: 15px;
+    margin-top: 26px;
+    color: #777;
+}
+
+/*= ПЕРЕКЛЮЧАТЕЛЬ ЯЗЫКА
+------------------------------------------------------- */
+.switch-lang {
+    position: absolute;
+    padding: 0.25em 1em;
+    border-radius: 1em;
+    background-color: #B2EBF2;
+}
+
+.switch-lang a:hover, .switch-lang a {
+    text-decoration: none;
+    color: #00ACC1;
+}
+
+.switch-lang a.active {
+    text-shadow: 0 0 15px #F50057;
+    color: #F50057;
+}
+
+/*= КОНТЕЙНЕРЫ
+--------------------------------------------------------*/
+.container {
+    padding: 25px 16px 25px 10px;
+    font-weight: 400;
+    overflow: hidden;
+    width: 350px;
+    height: auto;
+    margin-right: auto;
+    /*background: #fff;*/
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+
+.container h1 {
+    color: #777;
+    text-align: center;
+    font-weight: 300;
+    border: 1px dashed #777;
+    margin-top: 13px;
+}
+
+.container label {
+    color: #777;
+    font-size: 16px;
+}
+
+#welcome {
+
+    padding: 30px;
+    /*background: #d9d9d9;*/
+    margin: auto;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.13);
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+
+#login {
+    text-align: center;
+    font-size: 15px;
+    /*width: 320px;*/
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.container form .input,.container input[type=text],.container input[type=password],.container input[type=e] {
+    background: #fbfbfb;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    line-height: 1;
+    width: 100%;
+    padding: 3px;
+    margin: 0 6px 5px 0;
+    outline: none;
+    border: 1px solid #d9d9d9;
+}
+
+.container form .input:focus {
+    border: 1px solid #f58220;
+    -webkit-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+    -moz-box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+    box-shadow: 0 0 3px 0 rgba(245,130,32,0.75);
+}
+
+/*= КНОПКИ
+--------------------------------------------------------*/
+
+.button {
+    display:inline;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    border: 1px solid transparent;
+    background: #f78d1d;
+    color: #fff;
+    padding: 8px 28px;
+    border-radius:18px;
+    text-transform: uppercase;
+    float: right;
+    position: relative;
+    touch-action: manipulation;
+    cursor: pointer;
+    /*transition: background 0.2s ease-in-out;*/
+}
+
+.button:hover {
+    background: #f47c20;
+}
+
+/*= ПОДВАЛ
+--------------------------------------------------------*/
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #777;
+    font-size: 12px;
+    text-align: center;
+    height: 30px;
+    padding: 20px;
+}
